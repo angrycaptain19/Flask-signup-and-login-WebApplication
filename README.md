@@ -1,9 +1,10 @@
 # Flask-learning-1
 
-Virtual env on Python 3.6.1
+<h4> Virtual env on Python 3.6.1
+  
+<h3> SET FLASK_APP=run.py
 
-SET FLASK_APP=run.py
-SET FLASK_ENV=development
+<h3> SET FLASK_ENV=development
 
 1. In terminal:
 -pip install flask
