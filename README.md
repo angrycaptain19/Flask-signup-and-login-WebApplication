@@ -5,8 +5,8 @@
 <h3> SET FLASK_APP=run.py
 
 <h3> SET FLASK_ENV=development
-
-1. In terminal:
--pip install flask
--pip install flask-sqlalchemy
+<br>
+<h5>In terminal:
+* pip install flask
+* pip install flask-sqlalchemy
 
