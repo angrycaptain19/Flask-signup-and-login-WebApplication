@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Register</title>
+    <title>Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href="{{ url_for('static', filename='css/register.css')}}">
 </head>
@@ -14,17 +14,11 @@
         </div>
         <div class="context">
             <form method="POST">
-                <input type="text" name="firstname" placeholder="First name" required>
-                <br>
-                <input type="text" name="lastname" placeholder="Last name" required>
-                <br>
                 <input type="text" name="nickname" placeholder="Nickname" required>
-                <br>
-                <input type="email" name="email" placeholder="Email" required>
                 <br>
                 <input type="password" name="password" minlength="8" placeholder="Password" required>
                 <br>
-                <input type="submit" value="Register">
+                <input type="submit" value="Login">
             </form>
         </div>
     </div>
