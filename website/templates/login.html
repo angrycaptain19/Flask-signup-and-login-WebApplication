@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Login</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href="{{ url_for('static', filename='css/register.css')}}">
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block body %}
     <div class="container">
         <div class="logo">
             <a href="/"><img src="{{url_for('static', filename='logo.png')}}" id="logo"/></a>
@@ -22,5 +15,4 @@
             </form>
         </div>
     </div>
-</body>
-</html>
+{% endblock %}
