@@ -1,10 +1,7 @@
 {% extends "base.html" %}
 {% block title %}Home{% endblock %}
-{% block body %}
+{% block content %}
     <div class="container">
-        <div class="logo">
-            <img src="{{url_for('static', filename='logo.png')}}" id="logo"/>
-        </div>
         <div class="context">
             <form method="POST">
                 <div class="register"><a href="/signup">Register</a></div>
