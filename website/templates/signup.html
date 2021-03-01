@@ -1,5 +1,6 @@
 {% extends "base.html" %}
-{% block title %}Register{% endblock %}
+{% block title %}Sign Up{% endblock %}
+{% block css %}<link rel='stylesheet' type='text/css' media='screen' href="{{ url_for('static', filename='css/signup.css')}}">{% endblock %}
 {% block body %}
     <div class="container">
         <div class="logo">
@@ -15,9 +16,11 @@
                 <br>
                 <input type="email" name="email" id="email" placeholder="Email" required>
                 <br>
-                <input type="password" name="password" id="password" minlength="8" placeholder="Password" required>
+                <input type="password" name="password1" id="password1" minlength="8" placeholder="Password" required>
                 <br>
-                <input type="submit" value="Register">
+                <input type="password" name="password2" id="password2" minlength="8" placeholder="Confirm password" required>
+                <br>
+                <button type="submit">Sign Up</button>
             </form>
         </div>
     </div>
