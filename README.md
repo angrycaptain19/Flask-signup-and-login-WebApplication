@@ -1,4 +1,4 @@
-# Flask-learning-1
+# Flask Register & Login App
 
 <h4> Virtual env on Python 3.6.1
   
