@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 {% block title %}Login{% endblock %}
+{% block css %}<link rel='stylesheet' type='text/css' media='screen' href="{{ url_for('static', filename='css/signup.css')}}">{% endblock %}
 {% block body %}
     <div class="container">
         <div class="logo">
-            <a href="/"><img src="{{url_for('static', filename='logo.png')}}" id="logo"/></a>
+            <a href="/"><img src="{{url_for('static', filename='logo.png')}}" id="logo" style="margin-top: 60px;"/></a>
         </div>
         <div class="context">
             <form method="POST">
@@ -11,7 +12,7 @@
                 <br>
                 <input type="password" name="password" minlength="8" placeholder="Password" required>
                 <br>
-                <input type="submit" value="Login">
+                <button type="submit">Login</button>
             </form>
         </div>
     </div>
