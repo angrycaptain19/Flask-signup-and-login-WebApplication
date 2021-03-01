@@ -1,12 +1,3 @@
-# Flask Register & Login App
-
-<h4> Virtual env on Python 3.6.1
-  
-<h3> SET FLASK_APP=run.py
-
-<h3> SET FLASK_ENV=development
+To do:
 <br>
-<h5>In terminal:
-* pip install flask
-* pip install flask-sqlalchemy
-
+Change websites on Bootstrap design
